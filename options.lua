@@ -8,7 +8,7 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     iskeyword = vim.opt.iskeyword + { "-" }, -- add to option list
-    -- bg = "dark",                             -- set background to dark
+    bg = "dark", -- set background to dark
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader

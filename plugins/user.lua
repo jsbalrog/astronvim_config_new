@@ -37,6 +37,16 @@ return {
     },
   },
   {
+    "tpope/vim-fugitive",
+    opts = {},
+    event = "User AstroFile",
+    config = function() end,
+    cmd = { "Fugitive" },
+    keys = {
+      { "<leader>G", "<cmd>Git<cr>", desc = "Open Fugitive" },
+    },
+  },
+  {
     "mg979/vim-visual-multi",
     event = "User AstroFile",
     config = function()

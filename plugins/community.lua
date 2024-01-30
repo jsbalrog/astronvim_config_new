@@ -10,4 +10,7 @@ return {
   { import = "astrocommunity.colorscheme.neosolarized-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.colorscheme.iceberg-vim" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
 }

@@ -19,9 +19,12 @@ return {
 
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
-  -- colorscheme = "catppuccin",
+  colorscheme = "catppuccin",
   -- colorscheme = "kanagawa",
-  colorscheme = "neosolarized",
+  -- colorscheme = "neosolarized",
+  -- colorscheme = "iceberg",
+  -- colorscheme = "dawnfox",
+  -- colorscheme = "gruvbox",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -39,6 +42,7 @@ return {
           -- "go",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
+          "markdown",
           -- "python",
         },
       },
